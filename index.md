@@ -24,7 +24,7 @@ developer. This policy explains what data the app collects and how it is used.
 
 ## Your rights (GDPR)
 
-- **Export**: request a copy of your data in-app (Profile) or by email.
+- **Export**: request a copy of your data by email.
 - **Deletion**: delete your account in-app (Profile → Delete Account); your
   personal data is removed or anonymized.
 - **Contact**: krzysztof.gruszczynski.kg@gmail.com
