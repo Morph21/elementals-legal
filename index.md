@@ -1,13 +1,15 @@
 # Elementals — Privacy Policy
 
-_Last updated: 2026-07-09_
+_Last updated: 2026-07-10_
 
 Elementals ("the app") is a monster-battling game operated by an independent
 developer. This policy explains what data the app collects and how it is used.
 
 ## Data we collect
 
-- **Account data**: the email address and password hash you register with.
+- **Account data**: the email address and password hash you register with, or
+  your Google account identifier (email and stable account ID) if you sign in
+  with Google.
   Used solely for authentication and account recovery.
 - **Gameplay data**: your pets, fights, breeding history, currency, level, and
   similar game-state, stored on our server to provide the game.
