@@ -16,7 +16,7 @@ _Wersja 1.0 — obowiązuje od `[date]`_
 
 1.1. Gra Elementals (dalej **„Gra"**) jest prowadzona przez `[Imię i nazwisko /
 firma]`, osobę fizyczną prowadzącą jednoosobową działalność gospodarczą w
-Polsce, adres `[adres]`, NIP `[NIP]`, REGON `[REGON]` (dalej **„Usługodawca"**).
+Polsce, adres `[adres]`, NIP 6351826533, REGON `[REGON]` (dalej **„Usługodawca"**).
 
 1.2. Kontakt: `[support email]` (obecnie krzysztof.gruszczynski.kg@gmail.com).
 Na ten adres kierujesz pytania, reklamacje, sprawy dotyczące Konta oraz wszelkie
@@ -413,5 +413,5 @@ umożliwiający jego pobranie, zapisanie i wydrukowanie.
 ---
 
 _Regulamin gry Elementals, wersja 1.0, obowiązuje od `[date]`._
-_Usługodawca: `[Imię i nazwisko / firma]`, `[adres]`, NIP `[NIP]`, REGON `[REGON]`._
+_Usługodawca: Krzysztof Gruszczyński, `[adres]`, NIP 6351826533, REGON `[REGON]`._
 _Kontakt: `[support email]`._
