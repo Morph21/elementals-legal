@@ -13,8 +13,8 @@ _Version 1.0 — effective from `[date]`_
 
 ## 1. Who we are
 
-1.1. Elementals (the **"Game"**) is operated by `[Imię i nazwisko / firma]`, a
-sole trader registered in Poland, address `[adres]`, NIP `[NIP]`, REGON
+1.1. Elementals (the **"Game"**) is operated by Krzysztof Gruszczyński, a
+sole trader registered in Poland, address `[adres]`, NIP 6351826533, REGON
 `[REGON]` (the **"Provider"**, "we", "us").
 
 1.2. You can reach us at `[support email]` (currently
@@ -386,5 +386,5 @@ that allows you to download, save and print them.
 
 ---
 
-_Version 1.0, effective `[date]`. Provider: `[Imię i nazwisko / firma]`,
-`[adres]`, NIP `[NIP]`, REGON `[REGON]`. Contact: `[support email]`._
+_Version 1.0, effective `[date]`. Provider: Krzysztof Gruszczyński,
+`[adres]`, NIP 6351826533, REGON `[REGON]`. Contact: `[support email]`._

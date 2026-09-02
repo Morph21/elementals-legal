@@ -28,8 +28,8 @@ watch one, and you can delete your account from inside the app at any time.
 
 ## 1. Who we are
 
-1.1. The controller of your personal data is `[Imię i nazwisko / firma]`, a sole
-trader registered in Poland, address `[adres]`, NIP `[NIP]`, REGON `[REGON]`
+1.1. The controller of your personal data is Krzysztof Gruszczyński, a sole
+trader registered in Poland, address `[adres]`, NIP 6351826533, REGON `[REGON]`
 (the **"Provider"**, "we", "us").
 
 1.2. You can reach us at `[support email]` (currently
@@ -395,7 +395,7 @@ krzysztof.gruszczynski.kg@gmail.com). We answer in English or Polish.
 ---
 
 _Version 2.0, effective `[date]`, last updated 2026-09-02. Controller:
-`[Imię i nazwisko / firma]`, `[adres]`, NIP `[NIP]`, REGON `[REGON]`. Contact:
+Krzysztof Gruszczyński, `[adres]`, NIP 6351826533, REGON `[REGON]`. Contact:
 `[support email]`. This policy is available free of charge at
 <https://morph21.github.io/elementals-legal/>, in a form that allows you to
 download, save and print it._

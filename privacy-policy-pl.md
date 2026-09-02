@@ -29,9 +29,9 @@ w każdej chwili możesz usunąć konto z poziomu aplikacji.
 
 ## 1. Kto jest administratorem
 
-1.1. Administratorem Twoich danych osobowych jest `[Imię i nazwisko / firma]`,
+1.1. Administratorem Twoich danych osobowych jest Krzysztof Gruszczyński,
 osoba fizyczna prowadząca działalność gospodarczą w Polsce, adres `[adres]`,
-NIP `[NIP]`, REGON `[REGON]` (**„Usługodawca"**, „my", „nas").
+NIP 6351826533, REGON `[REGON]` (**„Usługodawca"**, „my", „nas").
 
 1.2. Kontakt: `[support email]` (obecnie krzysztof.gruszczynski.kg@gmail.com).
 Na ten adres pisz we wszystkich sprawach z tej polityki: pytania, żądania
@@ -412,7 +412,7 @@ krzysztof.gruszczynski.kg@gmail.com). Odpowiadamy po polsku lub po angielsku.
 ---
 
 _Wersja 2.0, obowiązuje od `[date]`, ostatnia aktualizacja 2026-09-02.
-Administrator: `[Imię i nazwisko / firma]`, `[adres]`, NIP `[NIP]`,
+Administrator: Krzysztof Gruszczyński, `[adres]`, NIP 6351826533,
 REGON `[REGON]`. Kontakt: `[support email]`. Polityka jest dostępna nieodpłatnie
 pod adresem <https://morph21.github.io/elementals-legal/privacy-policy-pl.html>,
 w sposób umożliwiający jej pobranie, zapisanie i wydrukowanie._
