@@ -288,10 +288,11 @@ odpowiadamy w ciągu miesiąca.
 - **Ograniczenie przetwarzania** (art. 18) — możesz żądać wstrzymania
   przetwarzania na czas sporu co do prawidłowości danych lub legalności działań.
 - **Przenoszenie danych** (art. 20) — możesz otrzymać dane, które nam
-  przekazałeś(-aś), w formacie nadającym się do odczytu maszynowego. **Poproś o
-  eksport e-mailem** — prześlemy dane Twojego konta w pliku JSON. W aplikacji
-  nie ma jeszcze przycisku eksportu; planujemy go dodać, a do tego czasu eksport
-  otrzymasz na wniosek wysłany e-mailem.
+  przekazałeś(-aś), w formacie nadającym się do odczytu maszynowego. W aplikacji
+  otwórz **Eksportuj moje dane** w profilu: aplikacja przygotuje plik JSON z
+  danymi Twojego konta i przekaże go do systemowego arkusza udostępniania, więc
+  zapiszesz go lub wyślesz, gdzie chcesz. Możesz też poprosić o eksport
+  e-mailem — prześlemy ten sam plik.
 - **Sprzeciw** (art. 21) — możesz sprzeciwić się przetwarzaniu opartemu na naszym
   uzasadnionym interesie, czyli tutaj: raportowaniu awarii i kontrolom
   antyfraudowym przy nagrodach za reklamy. Napisz nam, dlaczego, a przestaniemy,
