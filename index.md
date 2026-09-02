@@ -2,6 +2,10 @@
 
 _Last updated: 2026-07-10_
 
+**Legal documents:** Privacy Policy (this page) ·
+[Terms of Service (EN)](terms-of-service.html) ·
+[Regulamin (PL)](terms-of-service-pl.html)
+
 Elementals ("the app") is a monster-battling game operated by an independent
 developer. This policy explains what data the app collects and how it is used.
 
