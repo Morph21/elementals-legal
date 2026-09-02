@@ -268,7 +268,8 @@ no longer identify you.
 Under the GDPR you have the following rights. All of them are free, and we
 answer within one month.
 
-- **Access** (Art. 15) — ask what we hold about you and get a copy.
+- **Access** (Art. 15) — ask what we hold about you and get a copy. Write to
+  `[support email]` and we send it.
 - **Rectification** (Art. 16) — have wrong or incomplete data corrected. You can
   change your username and pet nicknames yourself in the app.
 - **Erasure** (Art. 17) — have your data deleted; see section 8, and see 6.2 for
@@ -276,8 +277,9 @@ answer within one month.
 - **Restriction** (Art. 18) — have us pause processing while a dispute about
   accuracy or lawfulness is resolved.
 - **Portability** (Art. 20) — get the data you gave us in a machine-readable
-  form. **Request an export from Profile in the app** and you receive your
-  account as a JSON file; you can also request it by email.
+  form. **Ask us by email** and we send your account data as a JSON file. There
+  is no export button in the app yet; one is planned, and until it ships, email
+  is the way to get an export.
 - **Objection** (Art. 21) — object to processing based on our legitimate
   interest, which here means crash reporting and the fraud checks on ad rewards.
   Tell us why and we will stop unless we have compelling grounds that override

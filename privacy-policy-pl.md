@@ -280,7 +280,7 @@ Na podstawie RODO przysługują Ci poniższe prawa. Wszystkie są bezpłatne, a 
 odpowiadamy w ciągu miesiąca.
 
 - **Dostęp** (art. 15) — możesz zapytać, jakie dane o Tobie mamy, i otrzymać ich
-  kopię.
+  kopię. Napisz na `[support email]`, a ją prześlemy.
 - **Sprostowanie** (art. 16) — możesz żądać poprawienia danych błędnych lub
   niekompletnych. Nazwę gracza i nazwy petów zmienisz samodzielnie w aplikacji.
 - **Usunięcie** (art. 17) — możesz żądać usunięcia danych; zobacz pkt 8, a w
@@ -289,8 +289,9 @@ odpowiadamy w ciągu miesiąca.
   przetwarzania na czas sporu co do prawidłowości danych lub legalności działań.
 - **Przenoszenie danych** (art. 20) — możesz otrzymać dane, które nam
   przekazałeś(-aś), w formacie nadającym się do odczytu maszynowego. **Poproś o
-  eksport w zakładce Profil w aplikacji** — otrzymasz swoje konto w pliku JSON;
-  możesz też poprosić o niego e-mailem.
+  eksport e-mailem** — prześlemy dane Twojego konta w pliku JSON. W aplikacji
+  nie ma jeszcze przycisku eksportu; planujemy go dodać, a do tego czasu eksport
+  otrzymasz na wniosek wysłany e-mailem.
 - **Sprzeciw** (art. 21) — możesz sprzeciwić się przetwarzaniu opartemu na naszym
   uzasadnionym interesie, czyli tutaj: raportowaniu awarii i kontrolom
   antyfraudowym przy nagrodach za reklamy. Napisz nam, dlaczego, a przestaniemy,
