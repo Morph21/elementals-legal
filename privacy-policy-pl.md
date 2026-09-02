@@ -149,18 +149,37 @@ Zobacz [Politykę prywatności Google](https://policies.google.com/privacy) oraz
 [informację AdMob o danych](https://support.google.com/admob/answer/6128543),
 żeby dowiedzieć się, co Google robi w ramach wyświetlania reklam.
 
-### 2.8. Twój przedział wiekowy — zostaje na telefonie
+### 2.8. Twój przedział wiekowy — żeby reklamy pasowały do wieku
 
 Przy zakładaniu konta pytamy o przedział wiekowy: **poniżej 13 lat**,
-**13–17 lat** albo **18 lat i więcej**. Odpowiedź zapisywana jest **wyłącznie na
-Twoim urządzeniu** i **nigdy nie jest do nas wysyłana**. Służy tylko do
-oznaczania żądań reklamowych jako kierowanych do osoby małoletniej tam, gdzie ma
-to zastosowanie, żeby Google wyświetlał wyłącznie reklamy odpowiednie dla
-dziecka lub nastolatka.
+**13–17 lat** albo **18 lat i więcej**. Osoba **poniżej 13 lat** nie może
+założyć konta. Odpowiedź zapisywana jest **na Twoim koncie**, obok nazwy gracza
+i adresu e-mail.
 
-Ponieważ odpowiedź nigdy nie opuszcza Twojego urządzenia, nie przetwarzamy jej
-jako danych osobowych i jej nie widzimy. Po ponownej instalacji aplikacja pyta o
-to jeszcze raz.
+**Cel:** oznaczanie żądań reklamowych jako kierowanych do osoby małoletniej tam,
+gdzie ma to zastosowanie, żeby Google wyświetlał wyłącznie reklamy odpowiednie
+dla nastolatka. Przechowywanie odpowiedzi na koncie, a nie na jednym telefonie,
+sprawia, że to oznaczenie przetrwa ponowną instalację albo przesiadkę na drugie
+urządzenie.
+
+**Podstawa prawna:** art. 6 ust. 1 lit. f — nasz uzasadniony interes w tym, by
+reklamy odpowiadały wiekowi odbiorcy i by chronić osoby małoletnie. Tego samego
+wymagają od nas jako wydawcy aplikacji zasady Google Play Families i zasady
+programu AdMob, więc to samo przetwarzanie realizuje również obowiązek prawny
+z art. 6 ust. 1 lit. c.
+
+Jak się z tym obchodzimy:
+
+- pokazujemy go wyłącznie Tobie, na Twoim profilu — nigdy innemu graczowi;
+- wchodzi w skład kopii danych, którą możesz wyeksportować (pkt 7);
+- jest usuwany razem z kontem (pkt 8), tak jak nazwa gracza i adres e-mail;
+- można go zmienić wyłącznie na **bardziej** restrykcyjny, nigdy na mniej: konta
+  oznaczonego jako **13–17 lat** nie da się z poziomu aplikacji przestawić na
+  **18 lat i więcej**;
+- gdy Twoje konto ma już odpowiedź, nie pytamy ponownie: ponowna instalacja
+  albo drugie urządzenie korzystają z niej. Jeśli Twoje konto powstało, zanim
+  zaczęliśmy pytać, aplikacja zapyta raz na instalację po zalogowaniu — i
+  możesz odmówić; odmowa jest zapamiętywana tylko na tym urządzeniu.
 
 ### 2.9. Tabela zbiorcza
 
@@ -173,7 +192,7 @@ to jeszcze raz.
 | Raporty awarii, model urządzenia, wersja systemu i aplikacji | Naprawa awarii | Uzasadniony interes — art. 6 ust. 1 lit. f |
 | Zdarzenia analityczne (rejestracja, walka, hodowla, zakup) | Ulepszanie Gry | Zgoda — art. 6 ust. 1 lit. a |
 | Advertising ID i dane o interakcji z reklamą | Wyświetlenie reklamy z nagrodą, o którą poprosiłeś(-aś) | Zgoda — art. 6 ust. 1 lit. a |
-| Przedział wiekowy (poniżej 13 / 13–17 / 18+) | Oznaczenie żądań reklamowych dla małoletnich | Przechowywany wyłącznie na Twoim urządzeniu — nigdy do nas nie trafia |
+| Przedział wiekowy (poniżej 13 / 13–17 / 18+) | Oznaczenie żądań reklamowych dla małoletnich | Uzasadniony interes — art. 6 ust. 1 lit. f; obowiązek prawny — art. 6 ust. 1 lit. c |
 
 ## 3. Czy musisz podać te dane?
 
@@ -294,8 +313,9 @@ odpowiadamy w ciągu miesiąca.
   zapiszesz go lub wyślesz, gdzie chcesz. Możesz też poprosić o eksport
   e-mailem — prześlemy ten sam plik.
 - **Sprzeciw** (art. 21) — możesz sprzeciwić się przetwarzaniu opartemu na naszym
-  uzasadnionym interesie, czyli tutaj: raportowaniu awarii i kontrolom
-  antyfraudowym przy nagrodach za reklamy. Napisz nam, dlaczego, a przestaniemy,
+  uzasadnionym interesie, czyli tutaj: raportowaniu awarii, kontrolom
+  antyfraudowym przy nagrodach za reklamy i przedziałowi wiekowemu
+  przechowywanemu na potrzeby oznaczania reklam (pkt 2.8). Napisz nam, dlaczego, a przestaniemy,
   chyba że mamy ważne prawnie uzasadnione podstawy nadrzędne wobec Twoich
   interesów.
 - **Cofnięcie zgody** (art. 7 ust. 3) — na analitykę i reklamy, w każdej chwili,
@@ -337,6 +357,7 @@ poproś o jego usunięcie. Usuniemy je i potwierdzimy.
 - każdy Twój token logowania traci ważność, a jego zapisy zostają skasowane, więc
   na konto nie da się już zalogować;
 - każda nazwa, którą nadałeś(-aś) petowi, zostaje wyczyszczona;
+- wskazany przez Ciebie przedział wiekowy (pkt 2.8) zostaje wyczyszczony;
 - cała Twoja historia aktywności zostaje usunięta.
 
 8.4. **Co zostaje i dlaczego:**
@@ -367,10 +388,13 @@ konta.
 lub opiekuna, który musi zaakceptować Regulamin w ich imieniu — tak samo, jak
 stanowi pkt 4 [Regulaminu](terms-of-service-pl.html).
 
-9.3. Przy zakładaniu konta aplikacja pyta o przedział wiekowy (pkt 2.8). Jeśli
-wskażesz **13–17 lat**, żądania reklamowe są oznaczane jako kierowane do osoby
-małoletniej, tak aby wyświetlane były wyłącznie reklamy odpowiednie dla wieku i
-niespersonalizowane.
+9.3. Przy zakładaniu konta aplikacja pyta o przedział wiekowy (pkt 2.8), a
+odpowiedź zostaje zapisana na Twoim koncie. Jeśli wskażesz **13–17 lat**,
+żądania reklamowe są oznaczane jako kierowane do osoby małoletniej, tak aby
+wyświetlane były wyłącznie reklamy odpowiednie dla wieku i niespersonalizowane —
+na każdym urządzeniu, na którym się zalogujesz, nie tylko na tym, na którym
+udzieliłeś(-aś) odpowiedzi. Jeśli Twoje konto jest starsze niż to pytanie,
+aplikacja zapyta raz po zalogowaniu.
 
 9.4. Jeśli jesteś rodzicem lub opiekunem i sądzisz, że dziecko poniżej 13 roku
 życia założyło konto, napisz na `[support email]`, a my je usuniemy.
@@ -416,3 +440,9 @@ Administrator: Krzysztof Gruszczyński, `[adres]`, NIP 6351826533,
 REGON `[REGON]`. Kontakt: `[support email]`. Polityka jest dostępna nieodpłatnie
 pod adresem <https://morph21.github.io/elementals-legal/privacy-policy-pl.html>,
 w sposób umożliwiający jej pobranie, zapisanie i wydrukowanie._
+
+<!-- REMINDER: this file is the source of the hosted Polish copy at
+     https://morph21.github.io/elementals-legal/privacy-policy-pl.html (source
+     repo https://github.com/Morph21/elementals-legal). Any edit here must be
+     mirrored there, and kept clause-for-clause parallel with the English
+     privacy-policy.md next to it. -->
