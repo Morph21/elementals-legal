@@ -143,15 +143,34 @@ See [Google's Privacy Policy](https://policies.google.com/privacy) and
 [AdMob's data disclosure](https://support.google.com/admob/answer/6128543) for
 what Google does as part of serving ads.
 
-### 2.8. Your age bracket — stays on your phone
+### 2.8. Your age bracket — to keep advertising age-appropriate
 
 At sign-up we ask which age bracket you are in: **Under 13**, **13–17**, or
-**18+**. The answer is stored **only on your device** and is **never sent to
-us**. Its only use is to tag ad requests as directed to a minor where that
-applies, so that Google serves only ads suitable for a child or teenager.
+**18+**. **Under 13** cannot create an account. The answer is stored **on your
+account**, alongside your username and email address.
 
-Because the answer never leaves your device, we do not process it as personal
-data and we cannot see it. Reinstalling the app asks the question again.
+**Purpose:** tagging ad requests as directed to a minor where that applies, so
+that Google serves only ads suitable for a teenager. Keeping the answer on the
+account rather than on one phone is what makes that tagging survive a reinstall
+or a move to a second device.
+
+**Legal basis:** Art. 6(1)(f) — our legitimate interest in age-appropriate
+advertising and in protecting minors. That interest is what the Google Play
+Families policy and the AdMob programme policies require of us as the app's
+publisher, so the same processing also serves a legal obligation under
+Art. 6(1)(c).
+
+How we handle it:
+
+- it is shown only to you, on your own profile — never to another player;
+- it is part of the copy of your data you can export (section 7);
+- it is erased with your account (section 8), like your username and address;
+- it can only be made **more** restrictive, never less: an account marked
+  **13–17** cannot be moved to **18+** from the app;
+- once your account carries an answer, we do not ask again: a reinstall or a
+  second device reuses it. If your account was created before we started
+  asking, the app asks you once per installation after you sign in — and you
+  can decline; declining is remembered on that device only.
 
 ### 2.9. Summary table
 
@@ -164,7 +183,7 @@ data and we cannot see it. Reinstalling the app asks the question again.
 | Crash reports, device model, OS and app version | Fixing crashes | Legitimate interest — Art. 6(1)(f) |
 | Analytics events (sign-up, fight, breeding, purchase) | Improving the Game | Consent — Art. 6(1)(a) |
 | Advertising ID and ad interaction data | Serving the rewarded ad you asked for | Consent — Art. 6(1)(a) |
-| Age bracket (Under 13 / 13–17 / 18+) | Tagging ad requests for minors | Stored on your device only — never sent to us |
+| Age bracket (Under 13 / 13–17 / 18+) | Tagging ad requests for minors | Legitimate interest — Art. 6(1)(f); legal obligation — Art. 6(1)(c) |
 
 ## 3. Do you have to give us this data?
 
@@ -282,7 +301,8 @@ answer within one month.
   or send it wherever you like. You can also ask us by email and we send the
   same file.
 - **Objection** (Art. 21) — object to processing based on our legitimate
-  interest, which here means crash reporting and the fraud checks on ad rewards.
+  interest, which here means crash reporting, the fraud checks on ad rewards,
+  and the age bracket held for ad tagging (section 2.8).
   Tell us why and we will stop unless we have compelling grounds that override
   your interests.
 - **Withdraw consent** (Art. 7(3)) — for analytics and ads, at any time, without
@@ -323,6 +343,7 @@ and ask us to delete it. We will do it and confirm.
 - every sign-in token you hold is invalidated and the token rows are deleted, so
   the account cannot be signed into again;
 - every nickname you gave a pet is cleared;
+- the age bracket you answered (section 2.8) is cleared;
 - your whole activity history is deleted.
 
 8.4. **What is kept, and why:**
@@ -351,9 +372,12 @@ collect personal data from them. If you are under 13, do not create an account.
 or guardian, who must accept the Terms of Service on their behalf — the same
 rule as section 4 of the [Terms of Service](terms-of-service.html).
 
-9.3. At sign-up the app asks which age bracket you are in (section 2.8). If you
-answer **13–17**, ad requests are tagged as directed to a minor so that only
-age-appropriate, non-personalised advertising is served.
+9.3. At sign-up the app asks which age bracket you are in (section 2.8), and the
+answer is kept on your account. If you answer **13–17**, ad requests are tagged
+as directed to a minor so that only age-appropriate, non-personalised
+advertising is served — on every device you sign in on, not only the one you
+answered on. If your account is older than the question, the app asks you once
+after you sign in.
 
 9.4. If you are a parent or guardian and believe a child under 13 has created an
 account, write to `[support email]` and we will delete it.
@@ -399,3 +423,13 @@ Krzysztof Gruszczyński, `[adres]`, NIP 6351826533, REGON `[REGON]`. Contact:
 `[support email]`. This policy is available free of charge at
 <https://morph21.github.io/elementals-legal/>, in a form that allows you to
 download, save and print it._
+
+<!-- REMINDER: this file is the source of the hosted copy at
+     https://morph21.github.io/elementals-legal/ (source repo
+     https://github.com/Morph21/elementals-legal, where it is served as
+     index.md). Any edit here must be mirrored there, and the Polish sibling
+     privacy-policy-pl.md must be mirrored as privacy-policy-pl.md in the same
+     repo. v2 was published as Morph21/elementals-legal#2 on 2026-09-02.
+     The retention windows in section 6 come from the data-retention register
+     and are pinned by DataRetentionPropertiesTest — changing a window there is
+     a policy change and must be reflected in both copies of this document. -->
