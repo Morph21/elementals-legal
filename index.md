@@ -277,9 +277,10 @@ answer within one month.
 - **Restriction** (Art. 18) — have us pause processing while a dispute about
   accuracy or lawfulness is resolved.
 - **Portability** (Art. 20) — get the data you gave us in a machine-readable
-  form. **Ask us by email** and we send your account data as a JSON file. There
-  is no export button in the app yet; one is planned, and until it ships, email
-  is the way to get an export.
+  form. Open **Export my data** in your Profile in the app: it prepares a JSON
+  file with your account data and hands it to the share sheet, so you can save
+  or send it wherever you like. You can also ask us by email and we send the
+  same file.
 - **Objection** (Art. 21) — object to processing based on our legitimate
   interest, which here means crash reporting and the fraud checks on ad rewards.
   Tell us why and we will stop unless we have compelling grounds that override
