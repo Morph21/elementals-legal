@@ -274,6 +274,7 @@ termin.
 | Odbiory zadań dziennych | Czyszczone co noc przy resecie zadań |
 | Dziennik moderacji i audytu administratora | **1 rok** (365 dni) |
 | Tokeny odświeżania sesji | Usuwane przy wylogowaniu, przy usunięciu konta i natychmiast w razie ponownego użycia tokenu |
+| Zapisy wysyłki e-maili konta (weryfikacja, reset hasła, zmiana adresu) | **7 dni** od wysłania; **30 dni** dla wysyłki nieudanej, żeby dało się zdiagnozować awarię serwera pocztowego; usuwane wraz z kontem |
 | Raporty awarii | Zgodnie z retencją Google Crashlytics — obecnie **90 dni** |
 | Zdarzenia analityczne | Zgodnie z ustawieniami retencji Firebase Analytics |
 
@@ -358,7 +359,11 @@ poproś o jego usunięcie. Usuniemy je i potwierdzimy.
   na konto nie da się już zalogować;
 - każda nazwa, którą nadałeś(-aś) petowi, zostaje wyczyszczona;
 - wskazany przez Ciebie przedział wiekowy (pkt 2.8) zostaje wyczyszczony;
-- cała Twoja historia aktywności zostaje usunięta.
+- cała Twoja historia aktywności zostaje usunięta;
+- zapisy wysyłki wszystkich e-maili konta, które do Ciebie wysłaliśmy —
+  weryfikacja adresu, reset hasła, zmiana adresu — zostają usunięte, łącznie z
+  tymi, które nie zdążyły jeszcze wyjść, więc po odejściu nic już nie trafi na
+  Twój adres.
 
 8.4. **Co zostaje i dlaczego:**
 

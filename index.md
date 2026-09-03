@@ -263,6 +263,7 @@ runs every night at 03:00 and deletes whatever has passed its window.
 | Daily quest claims | Cleared nightly at the quest reset |
 | Admin moderation and audit log | **1 year** (365 days) |
 | Sign-in (refresh) tokens | Deleted when you log out, when you delete your account, and immediately if a token is reused |
+| Delivery records for account emails (verification, password reset, change of address) | **7 days** after sending; **30 days** for a send that failed, so a broken relay is still diagnosable; removed with your account |
 | Crash reports | Per Google's Crashlytics retention — currently **90 days** |
 | Analytics events | Per Google's Firebase Analytics retention settings |
 
@@ -343,7 +344,10 @@ and ask us to delete it. We will do it and confirm.
   the account cannot be signed into again;
 - every nickname you gave a pet is cleared;
 - the age bracket you answered (section 2.8) is cleared;
-- your whole activity history is deleted.
+- your whole activity history is deleted;
+- the delivery records of every account email we sent you — verification,
+  password reset, change of address — are deleted, including any that had not
+  been sent yet, so nothing goes out to the address after you have left.
 
 8.4. **What is kept, and why:**
 
