@@ -1,6 +1,6 @@
 # Elementals — Polityka prywatności
 
-_Wersja 2.0 — obowiązuje od `[date]`. Ostatnia aktualizacja: 2026-09-02._
+_Wersja 2.0 — obowiązuje od 2026-09-03. Ostatnia aktualizacja: 2026-09-03._
 
 **Języki:** Polski (ta strona) ·
 [English — Privacy Policy](./)
@@ -30,10 +30,10 @@ w każdej chwili możesz usunąć konto z poziomu aplikacji.
 ## 1. Kto jest administratorem
 
 1.1. Administratorem Twoich danych osobowych jest Krzysztof Gruszczyński,
-osoba fizyczna prowadząca działalność gospodarczą w Polsce, adres `[adres]`,
-NIP 6351826533, REGON `[REGON]` (**„Usługodawca"**, „my", „nas").
+osoba fizyczna prowadząca działalność gospodarczą w Polsce (CEIDG),
+NIP 6351826533, REGON 525095630 (**„Usługodawca"**, „my", „nas").
 
-1.2. Kontakt: `[support email]` (obecnie krzysztof.gruszczynski.kg@gmail.com).
+1.2. Kontakt: krzysztof.gruszczynski.kg@gmail.com.
 Na ten adres pisz we wszystkich sprawach z tej polityki: pytania, żądania
 dotyczące danych, reklamacje.
 
@@ -299,7 +299,7 @@ Na podstawie RODO przysługują Ci poniższe prawa. Wszystkie są bezpłatne, a 
 odpowiadamy w ciągu miesiąca.
 
 - **Dostęp** (art. 15) — możesz zapytać, jakie dane o Tobie mamy, i otrzymać ich
-  kopię. Napisz na `[support email]`, a ją prześlemy.
+  kopię. Napisz na krzysztof.gruszczynski.kg@gmail.com, a ją prześlemy.
 - **Sprostowanie** (art. 16) — możesz żądać poprawienia danych błędnych lub
   niekompletnych. Nazwę gracza i nazwy petów zmienisz samodzielnie w aplikacji.
 - **Usunięcie** (art. 17) — możesz żądać usunięcia danych; zobacz pkt 8, a w
@@ -334,7 +334,7 @@ możesz wnieść skargę do polskiego organu nadzorczego:
 Możesz też wnieść skargę do organu nadzorczego państwa UE, w którym mieszkasz
 lub pracujesz.
 
-Aby skorzystać z któregokolwiek prawa, napisz na `[support email]`. Możemy
+Aby skorzystać z któregokolwiek prawa, napisz na krzysztof.gruszczynski.kg@gmail.com. Możemy
 poprosić Cię o potwierdzenie, że dysponujesz adresem e-mail przypisanym do
 konta, żebyśmy nie wydali Twoich danych komuś innemu.
 
@@ -346,7 +346,7 @@ konta, żebyśmy nie wydali Twoich danych komuś innemu.
 wykonuje się od razu; bez okresu oczekiwania, bez wymiany e-maili, bez
 kontaktowania się z nami.
 
-8.2. **E-mailem:** napisz na `[support email]` z adresu przypisanego do konta i
+8.2. **E-mailem:** napisz na krzysztof.gruszczynski.kg@gmail.com z adresu przypisanego do konta i
 poproś o jego usunięcie. Usuniemy je i potwierdzimy.
 
 8.3. **Co jest usuwane:**
@@ -397,7 +397,7 @@ udzieliłeś(-aś) odpowiedzi. Jeśli Twoje konto jest starsze niż to pytanie,
 aplikacja zapyta raz po zalogowaniu.
 
 9.4. Jeśli jesteś rodzicem lub opiekunem i sądzisz, że dziecko poniżej 13 roku
-życia założyło konto, napisz na `[support email]`, a my je usuniemy.
+życia założyło konto, napisz na krzysztof.gruszczynski.kg@gmail.com, a my je usuniemy.
 
 ## 10. Jak chronimy Twoje dane
 
@@ -430,14 +430,14 @@ założymy jej z góry.
 
 ## 12. Kontakt
 
-Pytania, żądania dotyczące danych, reklamacje: `[support email]` (obecnie
-krzysztof.gruszczynski.kg@gmail.com). Odpowiadamy po polsku lub po angielsku.
+Pytania, żądania dotyczące danych, reklamacje: krzysztof.gruszczynski.kg@gmail.com. Odpowiadamy po polsku lub po angielsku.
 
 ---
 
-_Wersja 2.0, obowiązuje od `[date]`, ostatnia aktualizacja 2026-09-02.
-Administrator: Krzysztof Gruszczyński, `[adres]`, NIP 6351826533,
-REGON `[REGON]`. Kontakt: `[support email]`. Polityka jest dostępna nieodpłatnie
+_Wersja 2.0, obowiązuje od 2026-09-03, ostatnia aktualizacja 2026-09-03.
+Administrator: Krzysztof Gruszczyński, osoba fizyczna prowadząca działalność
+gospodarczą w Polsce (CEIDG), NIP 6351826533,
+REGON 525095630. Kontakt: krzysztof.gruszczynski.kg@gmail.com. Polityka jest dostępna nieodpłatnie
 pod adresem <https://morph21.github.io/elementals-legal/privacy-policy-pl.html>,
 w sposób umożliwiający jej pobranie, zapisanie i wydrukowanie._
 

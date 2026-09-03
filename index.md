@@ -1,6 +1,6 @@
 # Elementals — Privacy Policy
 
-_Version 2.0 — effective from `[date]`. Last updated: 2026-09-02._
+_Version 2.0 — effective from 2026-09-03. Last updated: 2026-09-03._
 
 **Languages:** English (this page) ·
 [Polski — Polityka prywatności](privacy-policy-pl.html)
@@ -29,11 +29,10 @@ watch one, and you can delete your account from inside the app at any time.
 ## 1. Who we are
 
 1.1. The controller of your personal data is Krzysztof Gruszczyński, a sole
-trader registered in Poland, address `[adres]`, NIP 6351826533, REGON `[REGON]`
+trader registered in Poland (CEIDG), NIP 6351826533, REGON 525095630
 (the **"Provider"**, "we", "us").
 
-1.2. You can reach us at `[support email]` (currently
-krzysztof.gruszczynski.kg@gmail.com). Use that address for anything in this
+1.2. You can reach us at krzysztof.gruszczynski.kg@gmail.com. Use that address for anything in this
 policy: questions, data requests, complaints.
 
 1.3. We are a one-person operation and are not required to appoint a Data
@@ -288,7 +287,7 @@ Under the GDPR you have the following rights. All of them are free, and we
 answer within one month.
 
 - **Access** (Art. 15) — ask what we hold about you and get a copy. Write to
-  `[support email]` and we send it.
+  krzysztof.gruszczynski.kg@gmail.com and we send it.
 - **Rectification** (Art. 16) — have wrong or incomplete data corrected. You can
   change your username and pet nicknames yourself in the app.
 - **Erasure** (Art. 17) — have your data deleted; see section 8, and see 6.2 for
@@ -321,7 +320,7 @@ complain to the Polish supervisory authority:
 You may also complain to the supervisory authority of the EU country where you
 live or work.
 
-To exercise any right, write to `[support email]`. We may ask you to confirm you
+To exercise any right, write to krzysztof.gruszczynski.kg@gmail.com. We may ask you to confirm you
 control the account's email address, so that we do not hand your data to someone
 else.
 
@@ -332,7 +331,7 @@ else.
 8.1. **In the app:** open **Profile → Delete Account** and confirm. The deletion
 runs immediately; no waiting period, no email exchange, no need to contact us.
 
-8.2. **By email:** write to `[support email]` from the address on your account
+8.2. **By email:** write to krzysztof.gruszczynski.kg@gmail.com from the address on your account
 and ask us to delete it. We will do it and confirm.
 
 8.3. **What is deleted:**
@@ -380,7 +379,7 @@ answered on. If your account is older than the question, the app asks you once
 after you sign in.
 
 9.4. If you are a parent or guardian and believe a child under 13 has created an
-account, write to `[support email]` and we will delete it.
+account, write to krzysztof.gruszczynski.kg@gmail.com and we will delete it.
 
 ## 10. How we protect your data
 
@@ -413,14 +412,13 @@ rather than assume it.
 
 ## 12. Contact
 
-Questions, data requests, complaints: `[support email]` (currently
-krzysztof.gruszczynski.kg@gmail.com). We answer in English or Polish.
+Questions, data requests, complaints: krzysztof.gruszczynski.kg@gmail.com. We answer in English or Polish.
 
 ---
 
-_Version 2.0, effective `[date]`, last updated 2026-09-02. Controller:
-Krzysztof Gruszczyński, `[adres]`, NIP 6351826533, REGON `[REGON]`. Contact:
-`[support email]`. This policy is available free of charge at
+_Version 2.0, effective 2026-09-03, last updated 2026-09-03. Controller:
+Krzysztof Gruszczyński, sole trader registered in Poland (CEIDG), NIP 6351826533, REGON 525095630. Contact:
+krzysztof.gruszczynski.kg@gmail.com. This policy is available free of charge at
 <https://morph21.github.io/elementals-legal/>, in a form that allows you to
 download, save and print it._
 
