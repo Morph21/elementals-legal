@@ -1,6 +1,6 @@
 # Elementals — Terms of Service
 
-_Version 1.0 — effective from `[date]`_
+_Version 1.0 — effective from 2026-10-01_
 
 **Languages:** English (this page) · [Polski — Regulamin](terms-of-service-pl.html)
 **See also:** [Privacy Policy](./)
@@ -14,11 +14,10 @@ _Version 1.0 — effective from `[date]`_
 ## 1. Who we are
 
 1.1. Elementals (the **"Game"**) is operated by Krzysztof Gruszczyński, a
-sole trader registered in Poland, address `[adres]`, NIP 6351826533, REGON
-`[REGON]` (the **"Provider"**, "we", "us").
+sole trader registered in Poland, NIP 6351826533, REGON
+525095630 (the **"Provider"**, "we", "us").
 
-1.2. You can reach us at `[support email]` (currently
-krzysztof.gruszczynski.kg@gmail.com). We use this address for support,
+1.2. You can reach us at krzysztof.gruszczynski.kg@gmail.com. We use this address for support,
 complaints, account matters and all notices under these Terms.
 
 1.3. These Terms of Service (the **"Terms"**) are the terms of an electronic
@@ -71,7 +70,7 @@ for confirmation of that consent.
 your Account with anyone, or sell, rent, buy or transfer an Account.
 
 4.5. You are responsible for keeping your password confidential and for
-everything that happens on your Account. Tell us at `[support email]`
+everything that happens on your Account. Tell us at krzysztof.gruszczynski.kg@gmail.com
 immediately if you think someone else has access to it.
 
 ## 5. Rules of conduct
@@ -93,7 +92,7 @@ immediately if you think someone else has access to it.
 10. use the Game in a way that breaks the law or these Terms.
 
 5.2. You are welcome — encouraged, in fact — to report bugs and exploits to
-`[support email]`.
+krzysztof.gruszczynski.kg@gmail.com.
 
 ## 6. Suspension and termination by us
 
@@ -104,7 +103,7 @@ temporarily suspend your Account; or permanently terminate it.
 6.2. Where feasible and lawful, we will tell you by email what measure we took
 and why, before or immediately after it takes effect.
 
-6.3. You may **appeal** by writing to `[support email]` within 30 days. We will
+6.3. You may **appeal** by writing to krzysztof.gruszczynski.kg@gmail.com within 30 days. We will
 consider the appeal and reply within 14 days. If it succeeds, we restore the
 Account and, where possible, the affected game state.
 
@@ -117,7 +116,7 @@ the Game (section 13.6).
 notice period and at no cost:
 
 - in the app: **Profile → Delete Account**; or
-- by email to `[support email]`.
+- by email to krzysztof.gruszczynski.kg@gmail.com.
 
 7.2. Deleting your Account removes or anonymises your personal data as described
 in the [Privacy Policy](./), and ends your access to all Virtual Items. Deleting
@@ -167,7 +166,7 @@ confirm.
 9.4. The contract for a purchase is concluded when Google Play confirms the
 transaction. **Delivery is immediate**: the Virtual Item is credited to your
 Account as soon as our server verifies the purchase with Google, normally within
-seconds. If it has not appeared within 24 hours, contact `[support email]`.
+seconds. If it has not appeared within 24 hours, contact krzysztof.gruszczynski.kg@gmail.com.
 
 9.5. Payment methods, invoices, taxes and Google's own refund handling are
 governed by your relationship with Google, under
@@ -176,7 +175,7 @@ governed by your relationship with Google, under
 9.6. **Refunds** are handled through the Google Play refund process — in the
 Google Play app or in your
 [order history](https://play.google.com/store/account/orderhistory). You may also
-write to `[support email]` and we will help where we can. If a purchase is
+write to krzysztof.gruszczynski.kg@gmail.com and we will help where we can. If a purchase is
 refunded or charged back, we may remove the corresponding Virtual Items and
 anything bought with them, and may suspend an Account used to abuse refunds.
 
@@ -189,14 +188,19 @@ does not conform to the contract, are not affected by this section.
 contract without giving a reason.
 
 10.2. Purchases in the Game are digital content delivered immediately and not on
-a tangible medium. When you buy, you are asked to **expressly consent** to
-immediate delivery and to **acknowledge that you thereby lose the right of
-withdrawal**. Once the content has been delivered with that consent, the right
-of withdrawal no longer applies — art. 38 pkt 13 of the Polish Act on Consumer
-Rights (ustawa o prawach konsumenta) and art. 16(m) of Directive 2011/83/EU.
+a tangible medium. Purchases are made through the **Google Play checkout**, and
+the purchase terms shown there — including Google Play's own refund and
+withdrawal rules — apply to the transaction (see section 9). **The Game itself
+does not ask you to waive the right of withdrawal, and we do not rely on such a
+waiver given inside the Game.** Nothing in these Terms limits any right you have
+by law as a consumer, including the right of withdrawal under the Polish Act on
+Consumer Rights (ustawa o prawach konsumenta) and Directive 2011/83/EU, to the
+extent it applies to your purchase. If you believe you are entitled to withdraw
+from a purchase, write to krzysztof.gruszczynski.kg@gmail.com or request a refund through Google
+Play, and we will handle it in accordance with the law.
 
 10.3. The free contract itself (your Account, section 4) may be withdrawn from
-within 14 days of registration, by an unequivocal statement to `[support email]`
+within 14 days of registration, by an unequivocal statement to krzysztof.gruszczynski.kg@gmail.com
 or simply by deleting your Account.
 
 ## 11. Rewarded ads
@@ -224,9 +228,11 @@ For reference, at the time of publication:
   **1%**;
 - **otherwise**, the offspring's rarity follows the parents' species weights.
 
-12.3. `[Placeholder — the authoritative, up-to-date probability table is
-maintained in the Game and shown on the breeding screen. The figures in 12.2 are
-a snapshot and may be adjusted for balance; the in-game table always governs.]`
+12.3. The authoritative, up-to-date probability table is the **odds panel on the
+breeding screen in the Game**. The same figures are published, without signing
+in, by the server at `GET /api/content/breeding-odds` (on the Game's API host,
+`https://elementalsgame-sandbox.up.railway.app`). The figures in 12.2 are a
+snapshot and may be adjusted for balance; the in-game table always governs.
 
 12.4. Random rolls are performed and recorded server-side. We do not change the
 odds for individual players, and outcomes do not depend on how much you have
@@ -259,7 +265,7 @@ technical failure. We will keep such corrections to the minimum needed.
 13.6. We may **discontinue the Game**. If we do, we will give at least **30
 days' notice** in the app or by email, stop selling Virtual Items from the day of
 the announcement, and deal in good faith with refund requests sent to
-`[support email]` for purchases made shortly before it that you could not
+krzysztof.gruszczynski.kg@gmail.com for purchases made shortly before it that you could not
 reasonably use.
 
 ## 14. Intellectual property
@@ -304,7 +310,7 @@ Account (section 7).
 ## 17. Complaints
 
 17.1. Send complaints — about the Game, a purchase, a measure taken against your
-Account, or anything else — to `[support email]`.
+Account, or anything else — to krzysztof.gruszczynski.kg@gmail.com.
 
 17.2. Please include your Account email or username, a description of the
 problem, when it happened, and what you would like us to do. We will reply
@@ -386,5 +392,6 @@ that allows you to download, save and print them.
 
 ---
 
-_Version 1.0, effective `[date]`. Provider: Krzysztof Gruszczyński,
-`[adres]`, NIP 6351826533, REGON `[REGON]`. Contact: `[support email]`._
+_Version 1.0, effective 2026-10-01. Provider: Krzysztof Gruszczyński, NIP 6351826533, REGON 525095630. Contact: krzysztof.gruszczynski.kg@gmail.com._
+
+<!-- Repo copy of the hosted terms-of-service*.md in Morph21/elementals-legal; mirror any edit there by hand. -->

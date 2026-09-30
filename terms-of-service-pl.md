@@ -1,6 +1,6 @@
 # Elementals — Regulamin
 
-_Wersja 1.0 — obowiązuje od `[date]`_
+_Wersja 1.0 — obowiązuje od 2026-10-01_
 
 **Języki:** Polski (ta strona) · [English — Terms of Service](terms-of-service.html)
 **Zobacz też:** [Polityka prywatności](./)
@@ -14,11 +14,10 @@ _Wersja 1.0 — obowiązuje od `[date]`_
 
 ## 1. Usługodawca
 
-1.1. Gra Elementals (dalej **„Gra"**) jest prowadzona przez `[Imię i nazwisko /
-firma]`, osobę fizyczną prowadzącą jednoosobową działalność gospodarczą w
-Polsce, adres `[adres]`, NIP 6351826533, REGON `[REGON]` (dalej **„Usługodawca"**).
+1.1. Gra Elementals (dalej **„Gra"**) jest prowadzona przez Krzysztof Gruszczyński, osobę fizyczną prowadzącą jednoosobową działalność gospodarczą w
+Polsce, NIP 6351826533, REGON 525095630 (dalej **„Usługodawca"**).
 
-1.2. Kontakt: `[support email]` (obecnie krzysztof.gruszczynski.kg@gmail.com).
+1.2. Kontakt: krzysztof.gruszczynski.kg@gmail.com.
 Na ten adres kierujesz pytania, reklamacje, sprawy dotyczące Konta oraz wszelkie
 oświadczenia składane na podstawie Regulaminu.
 
@@ -79,7 +78,7 @@ innym osobom ani sprzedawać, wynajmować, kupować lub przekazywać Konta.
 
 4.5. Odpowiadasz za zachowanie hasła w poufności i za wszystko, co dzieje się na
 Twoim Koncie. Jeżeli podejrzewasz, że ktoś uzyskał do niego dostęp, napisz
-niezwłocznie na `[support email]`.
+niezwłocznie na krzysztof.gruszczynski.kg@gmail.com.
 
 ## 5. Zasady korzystania z Gry
 
@@ -103,7 +102,7 @@ niezwłocznie na `[support email]`.
 10. korzystać z Gry w sposób sprzeczny z prawem lub Regulaminem.
 
 5.2. Zgłoszenia błędów i luk są mile widziane — prosimy o nie na
-`[support email]`.
+krzysztof.gruszczynski.kg@gmail.com.
 
 ## 6. Zawieszenie i rozwiązanie umowy przez Usługodawcę
 
@@ -116,7 +115,7 @@ wypowiadając umowę.
 zastosowanym środku i jego przyczynie — przed jego zastosowaniem albo
 niezwłocznie po nim.
 
-6.3. Masz prawo **odwołania**. Napisz na `[support email]` w terminie 30 dni.
+6.3. Masz prawo **odwołania**. Napisz na krzysztof.gruszczynski.kg@gmail.com w terminie 30 dni.
 Rozpatrzymy odwołanie i odpowiemy w ciągu 14 dni. Jeżeli odwołanie okaże się
 zasadne, przywrócimy Konto oraz — w miarę możliwości — stan gry.
 
@@ -129,7 +128,7 @@ wypowiedzenia, jeżeli zakończymy działanie Gry (pkt 13.6).
 okresu wypowiedzenia i bez opłat:
 
 - w aplikacji: **Profil → Usuń konto**; albo
-- e-mailem na `[support email]`.
+- e-mailem na krzysztof.gruszczynski.kg@gmail.com.
 
 7.2. Usunięcie Konta powoduje usunięcie lub anonimizację Twoich danych osobowych
 zgodnie z [Polityką prywatności](./) oraz utratę dostępu do wszystkich
@@ -182,7 +181,7 @@ zakupu.
 Google Play. **Dostawa następuje natychmiast**: Przedmiot Wirtualny zostaje
 zapisany na Koncie, gdy nasz serwer zweryfikuje zakup u Google — zwykle w ciągu
 kilku sekund. Jeżeli po 24 godzinach nadal go nie ma, napisz na
-`[support email]`.
+krzysztof.gruszczynski.kg@gmail.com.
 
 9.5. Za sposoby płatności, faktury, podatki i własną procedurę zwrotów
 odpowiada Google, na podstawie
@@ -191,7 +190,7 @@ odpowiada Google, na podstawie
 9.6. **Zwroty** realizowane są w procedurze zwrotów Google Play. Wniosek złożysz
 w aplikacji Google Play lub w
 [historii zamówień Google Play](https://play.google.com/store/account/orderhistory).
-Możesz też napisać na `[support email]` — pomożemy w zakresie, w jakim możemy.
+Możesz też napisać na krzysztof.gruszczynski.kg@gmail.com — pomożemy w zakresie, w jakim możemy.
 W razie zwrotu lub obciążenia zwrotnego możemy usunąć odpowiadające zakupowi
 Przedmioty Wirtualne oraz to, co za nie nabyto, a Konto wykorzystywane do
 nadużywania zwrotów możemy zawiesić.
@@ -205,14 +204,19 @@ uprawnień z tytułu braku zgodności treści cyfrowej z umową.
 na odległość w terminie **14 dni**, bez podania przyczyny.
 
 10.2. Zakupy w Grze to treści cyfrowe dostarczane natychmiast i niezapisane na
-nośniku materialnym. Przy zakupie prosimy o **wyraźną zgodę** na dostarczenie
-treści przed upływem terminu do odstąpienia oraz o **przyjęcie do wiadomości, że
-w ten sposób tracisz prawo odstąpienia**. Po dostarczeniu treści za taką zgodą
-prawo odstąpienia nie przysługuje — art. 38 pkt 13 ustawy z dnia 30 maja 2014 r.
-o prawach konsumenta oraz art. 16 lit. m dyrektywy 2011/83/UE.
+nośniku materialnym. Zakupów dokonuje się w **kasie Google Play**, a warunki
+zakupu wyświetlane w tym miejscu — w tym zasady zwrotów i odstąpienia Google
+Play — mają zastosowanie do transakcji (zob. pkt 9). **Sama Gra nie prosi Cię o
+zrzeczenie się prawa odstąpienia i nie powołujemy się na takie zrzeczenie
+złożone w Grze.** Żadne postanowienie Regulaminu nie ogranicza uprawnień
+przysługujących Ci z mocy prawa jako konsumentowi, w tym prawa odstąpienia na
+podstawie ustawy o prawach konsumenta oraz dyrektywy 2011/83/UE, w zakresie, w
+jakim ma ono zastosowanie do Twojego zakupu. Jeżeli uważasz, że przysługuje Ci
+prawo odstąpienia od zakupu, napisz na krzysztof.gruszczynski.kg@gmail.com lub złóż wniosek o zwrot
+w Google Play — rozpatrzymy go zgodnie z prawem.
 
 10.3. Od samej umowy nieodpłatnej (Konto, pkt 4) możesz odstąpić w ciągu 14 dni
-od rejestracji — składając jednoznaczne oświadczenie na `[support email]` albo
+od rejestracji — składając jednoznaczne oświadczenie na krzysztof.gruszczynski.kg@gmail.com albo
 po prostu usuwając Konto.
 
 ## 11. Reklamy z nagrodą
@@ -241,10 +245,12 @@ działania**. Poglądowo, na dzień publikacji Regulaminu:
   Legendary **1%**;
 - **w pozostałych przypadkach** rzadkość potomka wynika z wag gatunków rodziców.
 
-12.3. `[Placeholder — wiążąca i aktualna tabela prawdopodobieństw jest
-utrzymywana w Grze i wyświetlana na ekranie hodowli. Wartości z pkt 12.2 są
+12.3. Wiążącą i aktualną tabelą prawdopodobieństw jest **panel szans na ekranie
+hodowli w Grze**. Te same wartości serwer udostępnia publicznie, bez logowania,
+pod adresem `GET /api/content/breeding-odds` (host API Gry:
+`https://elementalsgame-sandbox.up.railway.app`). Wartości z pkt 12.2 są
 zapisem stanu na dzień publikacji i mogą ulec zmianie ze względu na balans;
-rozstrzyga tabela w Grze.]`
+rozstrzyga tabela w Grze.
 
 12.4. Losowania są wykonywane i zapisywane po stronie serwera. Nie zmieniamy
 szans poszczególnym graczom, a wynik nie zależy od wydanych pieniędzy.
@@ -278,7 +284,7 @@ odtworzenia danych po awarii. Korekty ograniczamy do niezbędnego minimum.
 13.6. Możemy **zakończyć działanie Gry**. W takim wypadku poinformujemy o tym z
 co najmniej **30-dniowym wyprzedzeniem** w aplikacji lub e-mailem, wstrzymamy
 sprzedaż Przedmiotów Wirtualnych od dnia ogłoszenia i w dobrej wierze rozpatrzymy
-wnioski o zwrot wysłane na `[support email]` dotyczące zakupów dokonanych krótko
+wnioski o zwrot wysłane na krzysztof.gruszczynski.kg@gmail.com dotyczące zakupów dokonanych krótko
 przed ogłoszeniem, z których nie mogłeś rozsądnie skorzystać.
 
 ## 14. Prawa własności intelektualnej
@@ -328,7 +334,7 @@ danych albo usunąć Konto — zgodnie z pkt 7 i Polityką prywatności.
 ## 17. Reklamacje
 
 17.1. Reklamacje — dotyczące Gry, zakupu, środka zastosowanego wobec Konta lub
-czegokolwiek innego — kieruj na `[support email]`.
+czegokolwiek innego — kieruj na krzysztof.gruszczynski.kg@gmail.com.
 
 17.2. W reklamacji podaj adres e-mail Konta lub nazwę Użytkownika, opis problemu,
 datę wystąpienia oraz swoje oczekiwanie. Odpowiemy **w terminie 14 dni** od
@@ -412,6 +418,8 @@ umożliwiający jego pobranie, zapisanie i wydrukowanie.
 
 ---
 
-_Regulamin gry Elementals, wersja 1.0, obowiązuje od `[date]`._
-_Usługodawca: Krzysztof Gruszczyński, `[adres]`, NIP 6351826533, REGON `[REGON]`._
-_Kontakt: `[support email]`._
+_Regulamin gry Elementals, wersja 1.0, obowiązuje od 2026-10-01._
+_Usługodawca: Krzysztof Gruszczyński, NIP 6351826533, REGON 525095630._
+_Kontakt: krzysztof.gruszczynski.kg@gmail.com._
+
+<!-- Repo copy of the hosted terms-of-service*.md in Morph21/elementals-legal; mirror any edit there by hand. -->
