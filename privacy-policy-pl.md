@@ -1,6 +1,6 @@
 # Elementals — Polityka prywatności
 
-_Wersja 2.0 — obowiązuje od 2026-09-03. Ostatnia aktualizacja: 2026-09-03._
+_Wersja 2.1 — obowiązuje od 2026-09-03. Ostatnia aktualizacja: 2026-10-01._
 
 **Języki:** Polski (ta strona) ·
 [English — Privacy Policy](./)
@@ -113,14 +113,17 @@ Możesz wnieść sprzeciw wobec tego przetwarzania (pkt 7).
 Google Firebase Analytics rejestruje zdarzenia takie jak rejestracja,
 rozpoczęcie i zakończenie walki, hodowla oraz zakup, wraz z pseudonimowym
 identyfikatorem instancji aplikacji i ogólnym kontekstem technicznym (model
-urządzenia, wersja systemu, kraj). **Do analityki nie trafiają żadne nazwiska
-ani adresy e-mail.**
+urządzenia, wersja systemu, kraj) oraz **identyfikatorem Twojego konta
+gracza** (losowym identyfikatorem, ustawianym jako identyfikator użytkownika
+Analytics, gdy jesteś zalogowany(-a)). **Do analityki nie trafiają żadne
+nazwiska ani adresy e-mail.**
 
 **Cel:** zrozumienie, z których funkcji gracze korzystają i gdzie się gubią, aby
 ulepszać Grę.
 **Podstawa prawna:** art. 6 ust. 1 lit. a — Twoja zgoda. Analityka zbierana jest
-**dopiero po tym**, jak formularz zgody w aplikacji (Google User Messaging
-Platform) odnotuje, że analityka może działać. Jeśli odmówisz, analityka nie
+**wyłącznie za Twoją zgodą**: aplikacja odczytuje Twoją odpowiedź w formularzu
+zgody (Google User Messaging Platform) i zbiera analitykę tylko wtedy, gdy
+zgodziłeś(-aś) się na cel, którego ona dotyczy. Jeśli odmówisz, analityka nie
 jest zbierana. W każdej chwili możesz zmienić zdanie (pkt 7).
 
 ### 2.7. Reklamy — tylko te, o które sam(a) poprosisz
@@ -219,9 +222,16 @@ możesz wnieść sprzeciw (pkt 7).
   Google płaci nam za reklamy obejrzane z Twojego wyboru; sposób, w jaki Google
   wykorzystuje przy tym advertising ID, opisuje pkt 2.7 — w EOG, Wielkiej
   Brytanii i Szwajcarii dzieje się to wyłącznie za Twoją zgodą.
-- **Nie wysyłamy powiadomień push.** Aplikacja nie prosi o uprawnienie do
-  powiadomień i nie prowadzimy żadnych kampanii wiadomości. Jeśli to się kiedyś
-  zmieni, zaktualizujemy tę politykę i najpierw poprosimy o zgodę.
+- **Nie wysyłamy powiadomień push z serwera.** Nie prowadzimy żadnych kampanii
+  wiadomości i nie przechowujemy tokenu push przypisanego do Ciebie. Aplikacja
+  pokazuje natomiast kilka **przypomnień zaplanowanych na Twoim własnym
+  urządzeniu** — o gotowej do wyklucia hodowli, o nagrodzie dziennej, o
+  weekendowym wydarzeniu — ale tylko wtedy, gdy zezwolisz na powiadomienia: w
+  Androidzie 13 i nowszych aplikacja prosi o uprawnienie do powiadomień
+  (`POST_NOTIFICATIONS`), a jeśli odmówisz lub później wyłączysz je w
+  ustawieniach Androida, żadne przypomnienie się nie pojawi. Przypomnienia są
+  tworzone i wyświetlane lokalnie; nic o nich nie jest wysyłane do nas ani do
+  nikogo innego.
 - **Nie podejmujemy wobec Ciebie zautomatyzowanych decyzji wywołujących skutki
   prawne lub podobnie istotne ani Cię nie profilujemy** w rozumieniu art. 22
   RODO. Nic w Grze nie rozstrzyga o Tobie poza Grą.
@@ -237,20 +247,27 @@ przetwarzającymi), których potrzebujemy, żeby prowadzić Grę:
 
 | Dostawca | Co robi | Co otrzymuje |
 |---|---|---|
-| Railway Corp. | Hosting serwera i bazy PostgreSQL, w regionie `[Railway region — e.g. EU West / Amsterdam]` | Wszystkie serwerowe dane konta i rozgrywki, jako warstwa hostingowa |
+| Railway Corp. | Hosting serwera i bazy PostgreSQL, w regionie EU West (Amsterdam, Holandia) | Wszystkie serwerowe dane konta i rozgrywki, jako warstwa hostingowa |
+| Sendinblue SAS (działająca jako Brevo), Francja, UE | Wysyłanie e-maili konta: weryfikacja adresu, reset hasła, zmiana adresu e-mail | Twój adres e-mail i treść wiadomości (jednorazowy link, a przy zmianie adresu e-mail powiadomienie wskazujące dany adres) |
 | Google Ireland Ltd. — Firebase Crashlytics | Raportowanie awarii | Raporty awarii i informacje o urządzeniu (pkt 2.5) |
 | Google Ireland Ltd. — Firebase Analytics | Analityka korzystania | Zdarzenia analityczne i pseudonimowy identyfikator instancji (pkt 2.6) |
 | Google Ireland Ltd. — AdMob | Wyświetlanie reklam z nagrodą | Advertising ID i dane o interakcji z reklamą (pkt 2.7) |
 | Google Ireland Ltd. — Google Play Billing | Obsługa zakupów | Dane zakupu i zamówienia (pkt 2.3) |
 | Google Ireland Ltd. — Google Sign-In | Opcjonalne logowanie | Identyfikator Twojego konta Google i adres e-mail (pkt 2.1) |
 
-5.2. Innych odbiorców nie ma. Nie przekazujemy Twoich danych reklamodawcom,
+5.2. Poza dostawcami z powyższej tabeli innych odbiorców nie ma. Nie przekazujemy Twoich danych reklamodawcom,
 brokerom danych, sieciom analitycznym ani nikomu innemu. Organowi publicznemu
 ujawnilibyśmy dane tylko wtedy, gdy zobowiązuje nas do tego prawo, i tylko w
 zakresie, w jakim zobowiązuje.
 
 5.3. **Przekazywanie poza EOG.** Nasz serwer i baza danych działają w regionie
-wskazanym powyżej. Umowa na wymienione tu usługi Google zawarta jest z Google
+wskazanym powyżej. Railway Corp. jest spółką z siedzibą w Stanach Zjednoczonych,
+więc korzystanie z jej hostingu może oznaczać przekazanie danych osobowych do
+Stanów Zjednoczonych, mimo że serwery stoją w UE; jako zabezpieczenie opieramy
+się na umowie powierzenia przetwarzania danych z Railway, która obejmuje
+**standardowe klauzule umowne** Komisji Europejskiej oraz — w zakresie, w jakim
+Railway posiada certyfikację — **Ramy Ochrony Danych UE–USA (EU–US Data Privacy
+Framework)**. Brevo jest spółką francuską i przetwarza e-maile konta w UE. Umowa na wymienione tu usługi Google zawarta jest z Google
 Ireland Ltd. w Unii Europejskiej, ale Google może w ramach ich świadczenia
 przekazywać dane do Stanów Zjednoczonych i innych krajów. Jako zabezpieczenie
 takich transferów Google opiera się na **Ramach Ochrony Danych UE–USA (EU–US
@@ -267,7 +284,7 @@ termin.
 | Dane | Okres przechowywania |
 |---|---|
 | Konto (nazwa gracza, e-mail, dane logowania) | Do usunięcia konta albo do **730 dni** bez logowania — wtedy automatyczna anonimizacja |
-| Pety, ich nazwy, stan rozgrywki | Przez czas istnienia konta; nazwy petów są czyszczone przy usunięciu konta |
+| Pety, ich nazwy, stan rozgrywki | Przez czas istnienia konta; nazwy petów są czyszczone przy usunięciu konta, także w kopiach w historii zdarzeń (pkt 6.2) |
 | Zapisy walk | **730 dni** od zakończenia walki (ta sama walka jest częścią historii przeciwnika) |
 | Dziennik aktywności | **180 dni**; przy usunięciu konta Twoje wpisy kasowane są natychmiast |
 | Rejestr zakupów, nagród za reklamy i nagród dziennych | **5 lat** (1825 dni) — dowód potrzebny przy kontroli podatkowej lub obciążeniu zwrotnym |
@@ -280,15 +297,30 @@ termin.
 
 6.2. **Historia zdarzeń.** Pod spodem Gra zapisuje każde działanie jako
 dopisywany tylko na koniec dziennik zdarzeń — ten dziennik *jest* stanem gry i
-nigdy nie jest przepisywany. Usunięcie konta nie kasuje więc historycznych
-zdarzeń; zamiast tego je **pseudonimizuje**: Twoja nazwa, e-mail i dane
-logowania są zastępowane wszędzie tam, gdzie dają się odczytać, więc pozostaje
-historia przypisana do losowego identyfikatora, który nie wskazuje już na
-osobę. Nazwa gracza, której używałeś(-aś) w przeszłości, może nadal pojawiać się
-wewnątrz starego zapisu zdarzenia. Traktujemy to jako proporcjonalne
-zastosowanie art. 17 ust. 3 RODO — usunięcie wymagałoby zniszczenia integralności
-samego zapisu — i dlatego mówimy o anonimizacji Twojej tożsamości, a nie o
-skasowaniu każdego bajtu.
+nie jest przepisywany po usunięciu konta. Oto, co zawiera o Tobie:
+
+- losowy identyfikator gracza, który po usunięciu konta nie wskazuje już na
+  osobę;
+- **żadnego adresu e-mail.** Wczesne wersje Gry (przed lipcem 2026 r.) zapisywały
+  adres e-mail w zdarzeniu utworzenia konta; jednorazowa migracja danych usunęła
+  go ze wszystkich zapisanych zdarzeń, a obecne wersje nigdy go nie zapisują;
+- wybraną przez Ciebie **nazwę gracza**, w zdarzeniu utworzenia konta;
+- **żadnych nazw petów.** Zapis rozpoczęcia walki zachowuje skład każdej ze
+  stron, a nazwy, które nadałeś(-aś) petom, były w nim zapisywane (oraz w
+  zdarzeniu zmiany nazwy i w migawkach walk). Przy usunięciu konta te nazwy są
+  teraz usuwane także z zapisanych zdarzeń, więc historia zachowuje gatunek i
+  statystyki petów, ale nie wpisane przez Ciebie nazwy. Konta usunięte przed tą
+  zmianą zostały oczyszczone w ten sam sposób jednorazową migracją danych
+  (październik 2026 r.). Szczegółowe zdarzenia poszczególnych tur są usuwane po
+  krótkim czasie; zapisy rozpoczęcia i zakończenia walki — nie.
+
+Czytelne kopie — profil, dane logowania, pety, dziennik aktywności i zapisy
+wysyłki e-maili — są anonimizowane lub usuwane, jak opisuje pkt 8. To, co
+pozostaje w historii zdarzeń, traktujemy jako proporcjonalne zastosowanie
+art. 17 ust. 3 RODO — usunięcie wymagałoby zniszczenia integralności samego
+zapisu — i dlatego mówimy o anonimizacji konta, a nie o skasowaniu każdego
+bajtu. Jeśli nazwa gracza w tej historii Cię niepokoi, napisz do nas, a
+przyjrzymy się sprawie.
 
 6.3. Rejestry zakupów i nagród celowo przeżywają konto, z powodów podatkowych i
 reklamacyjnych opisanych w pkt 2.3. Po anonimizacji konta nie identyfikują już
@@ -353,11 +385,13 @@ poproś o jego usunięcie. Usuniemy je i potwierdzimy.
 8.3. **Co jest usuwane:**
 
 - Twoja nazwa gracza i adres e-mail — zarówno w profilu, jak i w danych
-  logowania — zostają zastąpione bezznaczeniowym symbolem zastępczym;
+  logowania — zostają zastąpione bezznaczeniowym symbolem zastępczym (historię
+  zdarzeń opisuje pkt 6.2);
 - hash hasła zostaje wyczyszczony, a powiązanie z kontem Google zerwane;
 - każdy Twój token logowania traci ważność, a jego zapisy zostają skasowane, więc
   na konto nie da się już zalogować;
-- każda nazwa, którą nadałeś(-aś) petowi, zostaje wyczyszczona;
+- każda nazwa, którą nadałeś(-aś) petowi, zostaje wyczyszczona — na liście petów
+  i w zapisanej historii zdarzeń;
 - wskazany przez Ciebie przedział wiekowy (pkt 2.8) zostaje wyczyszczony;
 - cała Twoja historia aktywności zostaje usunięta;
 - zapisy wysyłki wszystkich e-maili konta, które do Ciebie wysłaliśmy —
@@ -375,7 +409,9 @@ poproś o jego usunięcie. Usuniemy je i potwierdzimy.
 - **Pety i stan rozgrywki** — w postaci zanonimizowanej, bo odwołuje się do nich
   historia walk. Po wyczyszczeniu nazw nie zawierają żadnego imienia ani tekstu
   wpisanego przez człowieka.
-- **Dopisywana historia zdarzeń** — spseudonimizowana, jak opisuje pkt 6.2.
+- **Dopisywana historia zdarzeń** — jak opisuje pkt 6.2: losowy identyfikator,
+  Twoja dawna nazwa gracza. Nie zawiera adresu e-mail ani — ponieważ nazwy
+  petów są usuwane przy usunięciu konta — nazw petów.
 
 8.5. To samo usunięcie uruchamia się automatycznie dla każdego konta nieużywanego
 przez **730 dni**, dokładnie tą samą ścieżką w kodzie.
@@ -439,7 +475,7 @@ Pytania, żądania dotyczące danych, reklamacje: krzysztof.gruszczynski.kg@gmai
 
 ---
 
-_Wersja 2.0, obowiązuje od 2026-09-03, ostatnia aktualizacja 2026-09-03.
+_Wersja 2.1, obowiązuje od 2026-09-03, ostatnia aktualizacja 2026-10-01.
 Administrator: Krzysztof Gruszczyński, osoba fizyczna prowadząca działalność
 gospodarczą w Polsce (CEIDG), NIP 6351826533,
 REGON 525095630. Kontakt: krzysztof.gruszczynski.kg@gmail.com. Polityka jest dostępna nieodpłatnie
@@ -451,3 +487,5 @@ w sposób umożliwiający jej pobranie, zapisanie i wydrukowanie._
      repo https://github.com/Morph21/elementals-legal). Any edit here must be
      mirrored there, and kept clause-for-clause parallel with the English
      privacy-policy.md next to it. -->
+
+<!-- OWNER: v2.1 (2026-09-30) names the Railway region as EU West / Amsterdam; confirm it and the Railway and Brevo DPAs. Mirror this file to Morph21/elementals-legal by hand. -->

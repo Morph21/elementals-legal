@@ -1,6 +1,6 @@
 # Elementals — Privacy Policy
 
-_Version 2.0 — effective from 2026-09-03. Last updated: 2026-09-03._
+_Version 2.1 — effective from 2026-09-03. Last updated: 2026-10-01._
 
 **Languages:** English (this page) ·
 [Polski — Polityka prywatności](privacy-policy-pl.html)
@@ -49,6 +49,9 @@ Article 6(1) of the GDPR (Regulation (EU) 2016/679).
 Your email address and a hash of your password (we never store the password
 itself), or — if you use Google Sign-In — your Google account identifier and the
 email address on it; plus the username you choose.
+
+Account emails (address verification, password reset, change of email address)
+are sent on our behalf by Brevo (section 5).
 
 **Purpose:** creating your account, signing you in, recovering access, and
 contacting you about your account.
@@ -109,15 +112,18 @@ of you or to target you with anything. You can object to this processing
 
 Google Firebase Analytics records events such as signing up, starting and
 finishing a fight, breeding, and completing a purchase, together with a
-pseudonymous app-instance identifier and coarse technical context (device model,
-OS version, country). **No names and no email addresses are sent to Analytics.**
+pseudonymous app-instance identifier, your **player account ID** (a random
+identifier, set as the Analytics user ID while you are signed in) and coarse
+technical context (device model, OS version, country). **No names and no email
+addresses are sent to Analytics.**
 
 **Purpose:** understanding which features are used and where players get stuck,
 so we can improve the Game.
 **Legal basis:** Art. 6(1)(a) — your consent. Analytics is collected **only
-after** the in-app consent form (Google's User Messaging Platform) records that
-analytics may run. If you decline, analytics is not collected. You can change
-your mind at any time (section 7).
+when you consent**: the app reads your answer in the in-app consent form
+(Google's User Messaging Platform) and collects analytics only if you agreed to
+the purpose it falls under. If you decline, no analytics is collected. You can
+change your mind at any time (section 7).
 
 ### 2.7. Advertising — only the ads you ask for
 
@@ -210,9 +216,14 @@ optional ad rewards, because there is no ad to watch.
   watch, and Google's own use of the advertising ID for that is described in
   section 2.7 and happens, in the EEA, the UK and Switzerland, only with your
   consent.
-- **We do not send push notifications.** The app requests no notification
-  permission and we run no messaging campaigns. If that ever changes, we will
-  update this policy and ask for consent first.
+- **We do not send push notifications from a server.** We run no messaging
+  campaigns and hold no push token for you. The app does show a few
+  **reminders scheduled on your own device** — a breeding that is ready to hatch,
+  your daily reward, the weekend event — but only if you allow notifications:
+  on Android 13 and later the app asks for the notification permission
+  (`POST_NOTIFICATIONS`), and if you decline or later switch it off in Android's
+  settings, no reminder is shown. These reminders are created and shown locally;
+  nothing about them is sent to us or to anyone else.
 - **We make no automated decisions that produce legal or similarly significant
   effects about you, and we do not profile you** within the meaning of
   Art. 22 GDPR. Nothing in the Game decides anything about you outside the Game.
@@ -227,20 +238,28 @@ optional ad rewards, because there is no ad to watch.
 
 | Provider | What they do | What they get |
 |---|---|---|
-| Railway Corp. | Hosting the server and the PostgreSQL database, in region `[Railway region — e.g. EU West / Amsterdam]` | All server-side account and gameplay data, as the hosting layer |
+| Railway Corp. | Hosting the server and the PostgreSQL database, in the EU West region (Amsterdam, the Netherlands) | All server-side account and gameplay data, as the hosting layer |
+| Sendinblue SAS (trading as Brevo), France, EU | Sending account emails: address verification, password reset, change of email address | Your email address and the content of the message (a one-time link, and for an email-address change a notice naming the address involved) |
 | Google Ireland Ltd. — Firebase Crashlytics | Crash reporting | Crash reports and device information (section 2.5) |
 | Google Ireland Ltd. — Firebase Analytics | Usage analytics | Analytics events and a pseudonymous instance id (section 2.6) |
 | Google Ireland Ltd. — AdMob | Serving rewarded ads | Advertising ID and ad interaction data (section 2.7) |
 | Google Ireland Ltd. — Google Play Billing | Processing purchases | Purchase and order data (section 2.3) |
 | Google Ireland Ltd. — Google Sign-In | Optional sign-in | Your Google account identifier and email (section 2.1) |
 
-5.2. There are no other recipients. We do not pass your data to advertisers,
-data brokers, analytics networks or anyone else. We would disclose data to a
+5.2. Apart from the providers in the table above there are no other recipients.
+We do not pass your data to advertisers, data brokers, analytics networks or
+anyone else. We would disclose data to a
 public authority only where the law obliges us to, and only to the extent it
 obliges us.
 
 5.3. **Transfers outside the EEA.** Our server and database are hosted in the
-region named above. Your contract for the Google services listed here is with
+region named above. Railway Corp. is a company established in the United States,
+so hosting with it can involve a transfer of personal data to the United States
+even though the servers are in the EU; we rely on the data processing agreement
+with Railway, which incorporates the European Commission's **Standard
+Contractual Clauses** and, to the extent Railway is certified, the **EU–US Data
+Privacy Framework**, as the safeguard. Brevo is a French company and processes
+account emails in the EU. Your contract for the Google services listed here is with
 Google Ireland Ltd., in the EU, but Google may transfer data to the United
 States and other countries as part of running them. Google relies on the
 **EU–US Data Privacy Framework** and on the European Commission's **Standard
@@ -256,7 +275,7 @@ runs every night at 03:00 and deletes whatever has passed its window.
 | Data | Kept for |
 |---|---|
 | Account (username, email, credentials) | Until you delete your account, or until **730 days** without signing in — then anonymised automatically |
-| Pets, nicknames, gameplay state | While the account exists; nicknames are cleared on deletion |
+| Pets, nicknames, gameplay state | While the account exists; nicknames are cleared on deletion, including the copies in the event history (section 6.2) |
 | Fight records | **730 days** after the fight ended (an opponent's history references the same fight) |
 | Activity feed | **180 days**; deleted immediately for you when you delete your account |
 | Purchase ledger, rewarded-ad grants, daily-reward claims | **5 years** (1825 days) — the evidence we need for a tax enquiry or a chargeback |
@@ -268,15 +287,31 @@ runs every night at 03:00 and deletes whatever has passed its window.
 | Analytics events | Per Google's Firebase Analytics retention settings |
 
 6.2. **The event history.** Under the hood, the Game records every action as an
-append-only event log — that log *is* the state of the game, and it is never
-rewritten. Deleting your account therefore does not erase the historical events;
-instead it **pseudonymises** them: your name, email and credentials are replaced
-everywhere they are readable, so what remains is a history keyed to a random
-identifier that no longer resolves to a person. A username you used in the past
-may still appear inside an old event record. We treat this as a proportionate
-application of Art. 17(3) GDPR — erasure that would require destroying the
-integrity of the record itself — and it is why we describe the outcome as
-anonymisation of your identity rather than deletion of every byte.
+append-only event log — that log *is* the state of the game, and it is not
+rewritten when you delete your account. What it holds about you is this:
+
+- a random player identifier, which after deletion no longer resolves to a
+  person;
+- **no email address.** Early versions of the Game (before July 2026) wrote the
+  email address into the account-creation event; a one-off data migration
+  removed it from every stored event, and current versions never write it;
+- the **username** you chose, inside the account-creation event;
+- **no pet nicknames.** The fight-start record keeps each side's line-up, and
+  the nicknames you gave your pets were written into it (and into the rename
+  event and fight snapshots). When you delete your account, those nicknames are
+  now also removed from the stored events, so the history keeps the pets' species
+  and stats but not the names you typed. Accounts deleted before this change were
+  cleaned in the same way by a one-off data migration (October 2026). Detailed
+  turn-by-turn fight events are pruned after a short period; the start and end
+  records are not.
+
+The readable copies — your profile, credentials, pets, activity feed and mail
+records — are anonymised or deleted as described in section 8. We treat what
+remains in the event history as a proportionate application of Art. 17(3)
+GDPR — erasure that would require destroying the integrity of the record itself
+— and it is why we describe the outcome as anonymisation of your account rather
+than deletion of every byte. If the username in that history worries you, write to us and we will look at
+it.
 
 6.3. The purchase and reward ledgers deliberately outlive the account, for the
 tax and chargeback reasons in section 2.3. Once your account is anonymised they
@@ -338,11 +373,13 @@ and ask us to delete it. We will do it and confirm.
 8.3. **What is deleted:**
 
 - your username and email address, in both your profile and your credentials,
-  are replaced with a meaningless placeholder;
+  are replaced with a meaningless placeholder (the event history is covered in
+  section 6.2);
 - your password hash is blanked and any link to your Google account is severed;
 - every sign-in token you hold is invalidated and the token rows are deleted, so
   the account cannot be signed into again;
-- every nickname you gave a pet is cleared;
+- every nickname you gave a pet is cleared, in your roster and in the stored
+  event history;
 - the age bracket you answered (section 2.8) is cleared;
 - your whole activity history is deleted;
 - the delivery records of every account email we sent you — verification,
@@ -358,7 +395,9 @@ and ask us to delete it. We will do it and confirm.
   your opponents' history.
 - **Pets and game state**, in anonymised form, because the fight history refers
   to them. They carry no name or free text once nicknames are cleared.
-- **The append-only event history**, pseudonymised as described in section 6.2.
+- **The append-only event history**, as described in section 6.2: a random
+  identifier and your past username. It holds no email address and, since
+  nicknames are scrubbed on deletion, no pet nicknames.
 
 8.5. The same erasure runs automatically on any account left unused for **730
 days**, on exactly the same code path.
@@ -420,7 +459,7 @@ Questions, data requests, complaints: krzysztof.gruszczynski.kg@gmail.com. We an
 
 ---
 
-_Version 2.0, effective 2026-09-03, last updated 2026-09-03. Controller:
+_Version 2.1, effective 2026-09-03, last updated 2026-10-01. Controller:
 Krzysztof Gruszczyński, sole trader registered in Poland (CEIDG), NIP 6351826533, REGON 525095630. Contact:
 krzysztof.gruszczynski.kg@gmail.com. This policy is available free of charge at
 <https://morph21.github.io/elementals-legal/>, in a form that allows you to
@@ -435,3 +474,5 @@ download, save and print it._
      The retention windows in section 6 come from the data-retention register
      and are pinned by DataRetentionPropertiesTest — changing a window there is
      a policy change and must be reflected in both copies of this document. -->
+
+<!-- OWNER: v2.1 (2026-09-30) names the Railway region as EU West / Amsterdam because docs/plans/2026-09-02-email-verification-and-hosting.md says so - confirm it in the Railway project settings, and confirm the Railway DPA (with SCCs) and the Brevo DPA are accepted in their dashboards. -->
