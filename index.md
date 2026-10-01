@@ -1,6 +1,6 @@
 # Elementals — Privacy Policy
 
-_Version 2.1 — effective from 2026-09-03. Last updated: 2026-09-30._
+_Version 2.1 — effective from 2026-09-03. Last updated: 2026-10-01._
 
 **Languages:** English (this page) ·
 [Polski — Polityka prywatności](privacy-policy-pl.html)
@@ -275,7 +275,7 @@ runs every night at 03:00 and deletes whatever has passed its window.
 | Data | Kept for |
 |---|---|
 | Account (username, email, credentials) | Until you delete your account, or until **730 days** without signing in — then anonymised automatically |
-| Pets, nicknames, gameplay state | While the account exists; nicknames are cleared on deletion (a copy inside old fight-start records can remain — section 6.2) |
+| Pets, nicknames, gameplay state | While the account exists; nicknames are cleared on deletion, including the copies in the event history (section 6.2) |
 | Fight records | **730 days** after the fight ended (an opponent's history references the same fight) |
 | Activity feed | **180 days**; deleted immediately for you when you delete your account |
 | Purchase ledger, rewarded-ad grants, daily-reward claims | **5 years** (1825 days) — the evidence we need for a tax enquiry or a chargeback |
@@ -296,20 +296,22 @@ rewritten when you delete your account. What it holds about you is this:
   email address into the account-creation event; a one-off data migration
   removed it from every stored event, and current versions never write it;
 - the **username** you chose, inside the account-creation event;
-- the **nicknames** you gave your pets, inside the start record of the fights
-  those pets fought in (the fight-start event keeps each side's line-up). The
-  nickname is cleared from your pets themselves when you delete your account, but
-  this copy in the history of past fights is not rewritten. Detailed turn-by-turn
-  fight events are pruned after a short period; the start and end records are
-  not.
+- **no pet nicknames.** The fight-start record keeps each side's line-up, and
+  the nicknames you gave your pets were written into it (and into the rename
+  event and fight snapshots). When you delete your account, those nicknames are
+  now also removed from the stored events, so the history keeps the pets' species
+  and stats but not the names you typed. Accounts deleted before this change were
+  cleaned in the same way by a one-off data migration (October 2026). Detailed
+  turn-by-turn fight events are pruned after a short period; the start and end
+  records are not.
 
 The readable copies — your profile, credentials, pets, activity feed and mail
 records — are anonymised or deleted as described in section 8. We treat what
 remains in the event history as a proportionate application of Art. 17(3)
 GDPR — erasure that would require destroying the integrity of the record itself
 — and it is why we describe the outcome as anonymisation of your account rather
-than deletion of every byte. If a username or nickname in that history worries
-you, write to us and we will look at it.
+than deletion of every byte. If the username in that history worries you, write to us and we will look at
+it.
 
 6.3. The purchase and reward ledgers deliberately outlive the account, for the
 tax and chargeback reasons in section 2.3. Once your account is anonymised they
@@ -376,7 +378,8 @@ and ask us to delete it. We will do it and confirm.
 - your password hash is blanked and any link to your Google account is severed;
 - every sign-in token you hold is invalidated and the token rows are deleted, so
   the account cannot be signed into again;
-- every nickname you gave a pet is cleared;
+- every nickname you gave a pet is cleared, in your roster and in the stored
+  event history;
 - the age bracket you answered (section 2.8) is cleared;
 - your whole activity history is deleted;
 - the delivery records of every account email we sent you — verification,
@@ -393,8 +396,8 @@ and ask us to delete it. We will do it and confirm.
 - **Pets and game state**, in anonymised form, because the fight history refers
   to them. They carry no name or free text once nicknames are cleared.
 - **The append-only event history**, as described in section 6.2: a random
-  identifier, your past username, and pet nicknames inside old fight-start
-  records. It holds no email address.
+  identifier and your past username. It holds no email address and, since
+  nicknames are scrubbed on deletion, no pet nicknames.
 
 8.5. The same erasure runs automatically on any account left unused for **730
 days**, on exactly the same code path.
@@ -456,7 +459,7 @@ Questions, data requests, complaints: krzysztof.gruszczynski.kg@gmail.com. We an
 
 ---
 
-_Version 2.1, effective 2026-09-03, last updated 2026-09-30. Controller:
+_Version 2.1, effective 2026-09-03, last updated 2026-10-01. Controller:
 Krzysztof Gruszczyński, sole trader registered in Poland (CEIDG), NIP 6351826533, REGON 525095630. Contact:
 krzysztof.gruszczynski.kg@gmail.com. This policy is available free of charge at
 <https://morph21.github.io/elementals-legal/>, in a form that allows you to

@@ -1,6 +1,6 @@
 # Elementals — Polityka prywatności
 
-_Wersja 2.1 — obowiązuje od 2026-09-03. Ostatnia aktualizacja: 2026-09-30._
+_Wersja 2.1 — obowiązuje od 2026-09-03. Ostatnia aktualizacja: 2026-10-01._
 
 **Języki:** Polski (ta strona) ·
 [English — Privacy Policy](./)
@@ -284,7 +284,7 @@ termin.
 | Dane | Okres przechowywania |
 |---|---|
 | Konto (nazwa gracza, e-mail, dane logowania) | Do usunięcia konta albo do **730 dni** bez logowania — wtedy automatyczna anonimizacja |
-| Pety, ich nazwy, stan rozgrywki | Przez czas istnienia konta; nazwy petów są czyszczone przy usunięciu konta (kopia w starych zapisach rozpoczęcia walk może pozostać — pkt 6.2) |
+| Pety, ich nazwy, stan rozgrywki | Przez czas istnienia konta; nazwy petów są czyszczone przy usunięciu konta, także w kopiach w historii zdarzeń (pkt 6.2) |
 | Zapisy walk | **730 dni** od zakończenia walki (ta sama walka jest częścią historii przeciwnika) |
 | Dziennik aktywności | **180 dni**; przy usunięciu konta Twoje wpisy kasowane są natychmiast |
 | Rejestr zakupów, nagród za reklamy i nagród dziennych | **5 lat** (1825 dni) — dowód potrzebny przy kontroli podatkowej lub obciążeniu zwrotnym |
@@ -305,19 +305,21 @@ nie jest przepisywany po usunięciu konta. Oto, co zawiera o Tobie:
   adres e-mail w zdarzeniu utworzenia konta; jednorazowa migracja danych usunęła
   go ze wszystkich zapisanych zdarzeń, a obecne wersje nigdy go nie zapisują;
 - wybraną przez Ciebie **nazwę gracza**, w zdarzeniu utworzenia konta;
-- **nazwy**, które nadałeś(-aś) petom, w zapisie rozpoczęcia walk, w których te
-  pety walczyły (zdarzenie rozpoczęcia walki zachowuje skład każdej ze stron).
-  Nazwa jest czyszczona w samych petach przy usunięciu konta, ale ta kopia w
-  historii minionych walk nie jest przepisywana. Szczegółowe zdarzenia
-  poszczególnych tur są usuwane po krótkim czasie; zapisy rozpoczęcia i
-  zakończenia walki — nie.
+- **żadnych nazw petów.** Zapis rozpoczęcia walki zachowuje skład każdej ze
+  stron, a nazwy, które nadałeś(-aś) petom, były w nim zapisywane (oraz w
+  zdarzeniu zmiany nazwy i w migawkach walk). Przy usunięciu konta te nazwy są
+  teraz usuwane także z zapisanych zdarzeń, więc historia zachowuje gatunek i
+  statystyki petów, ale nie wpisane przez Ciebie nazwy. Konta usunięte przed tą
+  zmianą zostały oczyszczone w ten sam sposób jednorazową migracją danych
+  (październik 2026 r.). Szczegółowe zdarzenia poszczególnych tur są usuwane po
+  krótkim czasie; zapisy rozpoczęcia i zakończenia walki — nie.
 
 Czytelne kopie — profil, dane logowania, pety, dziennik aktywności i zapisy
 wysyłki e-maili — są anonimizowane lub usuwane, jak opisuje pkt 8. To, co
 pozostaje w historii zdarzeń, traktujemy jako proporcjonalne zastosowanie
 art. 17 ust. 3 RODO — usunięcie wymagałoby zniszczenia integralności samego
 zapisu — i dlatego mówimy o anonimizacji konta, a nie o skasowaniu każdego
-bajtu. Jeśli nazwa gracza lub pet w tej historii Cię niepokoi, napisz do nas, a
+bajtu. Jeśli nazwa gracza w tej historii Cię niepokoi, napisz do nas, a
 przyjrzymy się sprawie.
 
 6.3. Rejestry zakupów i nagród celowo przeżywają konto, z powodów podatkowych i
@@ -388,7 +390,8 @@ poproś o jego usunięcie. Usuniemy je i potwierdzimy.
 - hash hasła zostaje wyczyszczony, a powiązanie z kontem Google zerwane;
 - każdy Twój token logowania traci ważność, a jego zapisy zostają skasowane, więc
   na konto nie da się już zalogować;
-- każda nazwa, którą nadałeś(-aś) petowi, zostaje wyczyszczona;
+- każda nazwa, którą nadałeś(-aś) petowi, zostaje wyczyszczona — na liście petów
+  i w zapisanej historii zdarzeń;
 - wskazany przez Ciebie przedział wiekowy (pkt 2.8) zostaje wyczyszczony;
 - cała Twoja historia aktywności zostaje usunięta;
 - zapisy wysyłki wszystkich e-maili konta, które do Ciebie wysłaliśmy —
@@ -407,8 +410,8 @@ poproś o jego usunięcie. Usuniemy je i potwierdzimy.
   historia walk. Po wyczyszczeniu nazw nie zawierają żadnego imienia ani tekstu
   wpisanego przez człowieka.
 - **Dopisywana historia zdarzeń** — jak opisuje pkt 6.2: losowy identyfikator,
-  Twoja dawna nazwa gracza i nazwy petów w starych zapisach rozpoczęcia walk.
-  Nie zawiera adresu e-mail.
+  Twoja dawna nazwa gracza. Nie zawiera adresu e-mail ani — ponieważ nazwy
+  petów są usuwane przy usunięciu konta — nazw petów.
 
 8.5. To samo usunięcie uruchamia się automatycznie dla każdego konta nieużywanego
 przez **730 dni**, dokładnie tą samą ścieżką w kodzie.
@@ -472,7 +475,7 @@ Pytania, żądania dotyczące danych, reklamacje: krzysztof.gruszczynski.kg@gmai
 
 ---
 
-_Wersja 2.1, obowiązuje od 2026-09-03, ostatnia aktualizacja 2026-09-30.
+_Wersja 2.1, obowiązuje od 2026-09-03, ostatnia aktualizacja 2026-10-01.
 Administrator: Krzysztof Gruszczyński, osoba fizyczna prowadząca działalność
 gospodarczą w Polsce (CEIDG), NIP 6351826533,
 REGON 525095630. Kontakt: krzysztof.gruszczynski.kg@gmail.com. Polityka jest dostępna nieodpłatnie
