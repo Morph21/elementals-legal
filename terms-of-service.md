@@ -231,7 +231,7 @@ For reference, at the time of publication:
 12.3. The authoritative, up-to-date probability table is the **odds panel on the
 breeding screen in the Game**. The same figures are published, without signing
 in, by the server at `GET /api/content/breeding-odds` (on the Game's API host,
-`https://elementalsgame-sandbox.up.railway.app`). The figures in 12.2 are a
+`https://api.gruszczynski.app`). The figures in 12.2 are a
 snapshot and may be adjusted for balance; the in-game table always governs.
 
 12.4. Random rolls are performed and recorded server-side. We do not change the

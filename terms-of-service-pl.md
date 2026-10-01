@@ -248,7 +248,7 @@ działania**. Poglądowo, na dzień publikacji Regulaminu:
 12.3. Wiążącą i aktualną tabelą prawdopodobieństw jest **panel szans na ekranie
 hodowli w Grze**. Te same wartości serwer udostępnia publicznie, bez logowania,
 pod adresem `GET /api/content/breeding-odds` (host API Gry:
-`https://elementalsgame-sandbox.up.railway.app`). Wartości z pkt 12.2 są
+`https://api.gruszczynski.app`). Wartości z pkt 12.2 są
 zapisem stanu na dzień publikacji i mogą ulec zmianie ze względu na balans;
 rozstrzyga tabela w Grze.
 
